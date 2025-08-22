@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<title>Donate for Academics – SURYODAY BALGHRUAH TRUST</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="container nav">
+<div class="brand">
+<div class="logo"><span>SB</span></div>
+<div>
+<div class="trust-title">Donate for Academics</div>
+<small class="trust-sub">SURYODAY BALGHRUAH TRUST OR CHARIETY</small>
+</div>
+</div>
+<nav>
+<a href="index.html" class="btn">⬅ Back</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<section class="card">
+<h2>Support a Child's Academic Journey</h2>
+<p>Scan the QR code below or use the UPI ID to donate directly for academic purposes.</p>
+<img src="C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-08-22 221055.png" alt="UPI QR code" class="qr">
+<p><strong>UPI ID:</strong> SURYODAY.TRUST@oksbi</p>
+</section>
+
+
+<section class="card">
+<h2>Custom Amount</h2>
+<form onsubmit="return handlePledge(event)">
+<label for="name">Your Name</label>
+<input id="name" name="name" required placeholder="Full name" />
+
+
+<label for="amount">Amount (INR)</label>
+<input id="amount" name="amount" type="number" min="1" step="1" required />
+
+
+<label for="email">Email (for receipt)</label>
+<input id="email" name="email" type="email" placeholder="you@example.com" />
+
+
+<button class="btn primary" type="submit">Generate Pledge</button>
+<p id="pledgeOut"></p>
+</form>
+</section>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
